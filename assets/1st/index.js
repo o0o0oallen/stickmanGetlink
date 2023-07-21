@@ -9630,7 +9630,7 @@ window.__require = function t(e, o, n) {
 							}) : (console.info("\u6fc0\u52b1\u89c6\u9891\u6ca1\u6709\u52a0\u8f7d\u6210\u529f\uff0c\u65e0\u6cd5\u64ad\u653e"),
 								o.instance.rewardAdCtrl.close(!1))
 						}*/
-					}, r.DatasManager.MinMiniGame\u89c6\u9891\u5e7f\u544aID)), MiniGameAds.showInterstitial && r.DatasManager.MinMiniGame\u63d2\u5c4f\u5e7f\u544aID && (this.insertAdCtrl = new s.default("\u63d2\u5c4f", {
+					}/*, r.DatasManager.MinMiniGame\u89c6\u9891\u5e7f\u544aID)), MiniGameAds.showInterstitial && r.DatasManager.MinMiniGame\u63d2\u5c4f\u5e7f\u544aID && (this.insertAdCtrl = new s.default("\u63d2\u5c4f", {
 						show: function () {
 							MiniGameAds.isInterstitialReady() ? MiniGameAds.showInterstitial().then(function () {
 								console.info("\u65b0\u63a5\u53e3\u64ad\u653e\u63d2\u5c4f\u5e7f\u544a: \u6210\u529f")
@@ -9653,7 +9653,7 @@ window.__require = function t(e, o, n) {
 								console.error("\u65b0\u63a5\u53e3\u9690\u85cf\u6fc0\u52b1\u5e7f\u544a: \u5931\u8d25\uff0c\u539f\u56e0: " + t.message)
 							})
 						}
-					}, r.DatasManager.MinMiniGameBanner\u5e7f\u544aID))
+					}, r.DatasManager.MinMiniGameBanner\u5e7f\u544aID))*/
 				}, e.prototype._get = function (t, e, o, n, a, r) {
 					var i = this.getURL(t, o, e);
 					this.requestComplete(o, i, {}, !1, a, r)
