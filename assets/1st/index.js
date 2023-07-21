@@ -9615,7 +9615,7 @@ window.__require = function t(e, o, n) {
 				}, e.prototype.video_f = function (t) {
 					"\u89c2\u770b\u4e2d" == this.videoAd_status && (this.videoAd_status = t, this.rewardAdCtrl.close("\u89c2\u770b\u5b8c\u6210" == this.videoAd_status))
 					}, e.prototype.\u52a0\u8f7d\u5b8c\u6bd5\u521d\u59cb\u5316\u5e7f\u544a = function () {
-					(o.instance.rewardAdCtrl = new u.default("\u6fc0\u52b1\u89c6\u9891", {
+					o.instance.rewardAdCtrl = new u.default("\u6fc0\u52b1\u89c6\u9891", {
 						show: function () {
 							o.instance.rewardAdCtrl.close(!0)
 						}
@@ -9630,7 +9630,7 @@ window.__require = function t(e, o, n) {
 							}) : (console.info("\u6fc0\u52b1\u89c6\u9891\u6ca1\u6709\u52a0\u8f7d\u6210\u529f\uff0c\u65e0\u6cd5\u64ad\u653e"),
 								o.instance.rewardAdCtrl.close(!1))
 						}*/
-					}/*, r.DatasManager.MinMiniGame\u89c6\u9891\u5e7f\u544aID)), MiniGameAds.showInterstitial && r.DatasManager.MinMiniGame\u63d2\u5c4f\u5e7f\u544aID && (this.insertAdCtrl = new s.default("\u63d2\u5c4f", {
+					})/*, r.DatasManager.MinMiniGame\u89c6\u9891\u5e7f\u544aID)), MiniGameAds.showInterstitial && r.DatasManager.MinMiniGame\u63d2\u5c4f\u5e7f\u544aID && (this.insertAdCtrl = new s.default("\u63d2\u5c4f", {
 						show: function () {
 							MiniGameAds.isInterstitialReady() ? MiniGameAds.showInterstitial().then(function () {
 								console.info("\u65b0\u63a5\u53e3\u64ad\u653e\u63d2\u5c4f\u5e7f\u544a: \u6210\u529f")
